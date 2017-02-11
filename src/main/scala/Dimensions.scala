@@ -1,7 +1,7 @@
 /**
   * Created by fj on 11/02/17.
   */
-object Dimensions {
+object Dimensions extends App {
   sealed trait PackType
   case object Fun extends PackType
   case object Team extends PackType
@@ -48,11 +48,11 @@ object Dimensions {
   )
   val storyWorlds = List("Ghostbusters2016","FantasticBeastsAndWhereToFindThem","TheLEGOBatmanMovie")
 
-  sealed trait Ability
-  case object PoleVault extends Ability
-  case object ChiPowerUp
+  type Ability = String
 
   case class pack(id: Int, name: String, packType: PackType, world: String, abilities: List[Ability])
+
+  println("OHAI LEL")
 }
 
 class Dimensions {

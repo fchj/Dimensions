@@ -1,0 +1,31 @@
+{
+  "packs" : [
+    {
+      "id": 71203,
+      "name": "Portal2 level pack",
+      "packType" : "level",
+      "world" : "Portal2",
+      "abilities" : [
+        "portal gun",
+        "acrobat",
+        "silver LEGO blowup",
+        "weight switch"
+      ]
+    },
+    {
+      "id": 71248,
+      "name": "Mission Impossible level pack",
+      "packType": "level",
+      "world": "Mission Impossible",
+      "abilities" : [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 71340,
+      "name": "Supergirl"
+    }
+  ]
+}
