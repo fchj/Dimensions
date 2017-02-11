@@ -20,19 +20,39 @@ object Dimensions {
     "ScoobyDoo",
     "LegendsOfChima",
     "JurrasicWorld",
-  "GhostBusters",
+    "GhostBusters",
     "MidwayArcade",
     "AdventureTime",
     "HarryPotter",
     "TheATeam",
     "SonicTheHedgehog",
-
-
+    "Ghostbusters2016",
+    "ET",
+    "MissionImpossible",
+    "FantasticBeastsAndWhereToFindThem",
+    "Gremlins",
+    "TeenTitansGo",
+    "TheGoonies",
+    "KnightRider",
+    "LegoCityUndercover",
+    "BeetleJuice",
+    "PowerPuffGirls",
+    "TheLEGOBatmanMovie"
   )
 
-  val levelWorlds = List("Vorton","Portal2",)
+  val levelWorlds = List("Vorton","BackToTheFuture","TheSimpsons","Portal2","DoctorWho", "GhostBusters", "MidwayArcade",
+    "SonicTheHedgehog",
+    "AdventureTime",
+    "MissionImpossible",
+    "TheGoonies"
+  )
+  val storyWorlds = List("Ghostbusters2016","FantasticBeastsAndWhereToFindThem","TheLEGOBatmanMovie")
 
-  case class pack(id: Int, name: String, pt: PackType, world: String)
+  sealed trait Ability
+  case object PoleVault extends Ability
+  case object ChiPowerUp
+
+  case class pack(id: Int, name: String, packType: PackType, world: String, abilities: List[Ability])
 }
 
 class Dimensions {
