@@ -10,7 +10,8 @@
         "acrobat",
         "silver LEGO blowup",
         "weight switch"
-      ]
+      ],
+      "wave" : 10
     },
     {
       "id": 71248,
@@ -18,14 +19,30 @@
       "packType": "level",
       "world": "Mission Impossible",
       "abilities" : [
-        "",
+        "silver LEGO blowup",
         "",
         ""
-      ]
+      ],
+      "wave" : 60
     },
     {
       "id": 71340,
-      "name": "Supergirl"
+      "name": "Supergirl",
+      "world": "DC",
+      "packType": "Polybag",
+      "abilities" : [
+        "Flying",
+        "Laser",
+        "Invulnerability",
+        "Super Strength",
+        "Super Strength Handles",
+        "X-Ray",
+        "Dive",
+        "Freeze Breath",
+        "Dig",
+        "Red Lantern Transformation",
+        "LEGO Constructs"
+      ]
     }
   ]
 }

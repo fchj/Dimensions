@@ -1,12 +1,16 @@
 /**
   * Created by fj on 11/02/17.
   */
+
+import scala.util.parsing.json._
+
 object Dimensions extends App {
   sealed trait PackType
   case object Fun extends PackType
   case object Team extends PackType
   case object Level extends PackType
   case object Story extends PackType
+  case object Polybag extends PackType
 
   val adventureWorlds = List("DCComics",
     "LEGOMovie",
@@ -50,9 +54,21 @@ object Dimensions extends App {
 
   type Ability = String
 
-  case class pack(id: Int, name: String, packType: PackType, world: String, abilities: List[Ability])
+  case class pack(id: Int, name: String, packType: PackType, world: String, abilities: List[Ability], waveTimesTen: Int = 10)
 
-  println("OHAI LEL")
+  def allAbilities(packs: List[pack]): Set[Ability] = {
+    packs.flatMap(p => p.abilities).toSet
+  }
+
+  val allPacksJson = JSON.parseFull(scala.io.Source.fromFile("./src/main/resources/packs.json").getLines.mkString)
+  val allPacks = allPacksJson.get.asInstanceOf[Map[Any,Any]]("packs").asInstanceOf[List[Any]]
+
+
+  //TODO convert to
+  //val allPacks = allPacksJson.get.asInstanceOf[List[Any]]//("packs")
+  println(allPacks.head)
+
+
 }
 
 class Dimensions {

@@ -1,6 +1,9 @@
-name := "Dimensions"
+import sbt.Keys._
 
-version := "1.0"
-
-scalaVersion := "2.12.1"
-    
+lazy val commonSettings = Seq(
+  organization := "dk.heynjohnsen",
+  version := "1.0",
+  scalaVersion := "2.12.1",
+  version := "1.0",
+  name := "Dimensions"
+)
