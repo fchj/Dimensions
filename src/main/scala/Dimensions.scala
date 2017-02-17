@@ -54,19 +54,30 @@ object Dimensions extends App {
 
   type Ability = String
 
-  case class pack(id: Int, name: String, packType: PackType, world: String, abilities: List[Ability], waveTimesTen: Int = 10)
+  case class pack(id: Int, name: String, packType: String, world: String, abilities: List[Ability], waveTimesTen: Int = 10)
 
   def allAbilities(packs: List[pack]): Set[Ability] = {
     packs.flatMap(p => p.abilities).toSet
   }
 
+  def json2pack(json: Map[String,Any]): pack = {
+    pack(json.get("id").get.asInstanceOf[Double].toInt,
+      json.get("name").get.asInstanceOf[String],
+      json.get("packType").get.asInstanceOf[String],
+      json.get("world").get.asInstanceOf[String],
+      json.get("abilities").get.asInstanceOf[List[String]],
+      json.get("wave").get.asInstanceOf[Double].toInt
+    )
+  }
+
   val allPacksJson = JSON.parseFull(scala.io.Source.fromFile("./src/main/resources/packs.json").getLines.mkString)
-  val allPacks = allPacksJson.get.asInstanceOf[Map[Any,Any]]("packs").asInstanceOf[List[Any]]
+  val allPacks = allPacksJson.get.asInstanceOf[Map[Any,Any]]("packs").asInstanceOf[List[Map[String,Any]]]
 
 
   //TODO convert to
   //val allPacks = allPacksJson.get.asInstanceOf[List[Any]]//("packs")
   println(allPacks.head)
+  println(json2pack(allPacks.head))
 
 
 }
