@@ -53,12 +53,21 @@ object Dimensions extends App {
   val storyWorlds = List("Ghostbusters2016","FantasticBeastsAndWhereToFindThem","TheLEGOBatmanMovie")
 
   type Ability = String
+  type World = String
 
   case class pack(id: Int, name: String, packType: String, world: String, abilities: List[Ability], waveTimesTen: Int = 10)
 
-  def allAbilities(packs: List[pack]): Set[Ability] = {
+  def distinctAbilities(packs: List[pack]): Set[Ability] = {
     packs.flatMap(p => p.abilities).toSet
   }
+
+
+  //TODO worlds are adv, level, story etc. one function for each or perameter??
+  def distinctWorlds(packs: Selection): Set[World] = {
+    packs.map(p => p.world).toSet
+  }
+
+  type Selection = List[pack]
 
   def json2pack(json: Map[String,Any]): pack = {
     pack(json.get("id").get.asInstanceOf[Double].toInt,
@@ -71,15 +80,19 @@ object Dimensions extends App {
   }
 
   val allPacksJson = JSON.parseFull(scala.io.Source.fromFile("./src/main/resources/packs.json").getLines.mkString)
-  val allPacks = allPacksJson.get.asInstanceOf[Map[Any,Any]]("packs").asInstanceOf[List[Map[String,Any]]]
+  val allPacksAny = allPacksJson.get.asInstanceOf[Map[Any,Any]]("packs").asInstanceOf[List[Map[String,Any]]]
 
 
   //TODO convert to
   //val allPacks = allPacksJson.get.asInstanceOf[List[Any]]//("packs")
-  println(allPacks.head)
-  println(json2pack(allPacks.head))
+  println(allPacksAny.head)
+  println(json2pack(allPacksAny.head))
 
-
+  val allPacks = allPacksAny.map(ap => json2pack(ap))
+  for (ap <- allPacks) {
+    println(ap)
+  }
+  println(distinctAbilities(allPacks))
 }
 
 class Dimensions {

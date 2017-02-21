@@ -19,9 +19,7 @@
       "packType": "level",
       "world": "Mission Impossible",
       "abilities" : [
-        "silver LEGO blowup",
-        "",
-        ""
+        "silver LEGO blowup"
       ],
       "wave" : 60
     },
@@ -42,7 +40,8 @@
         "Dig",
         "Red Lantern Transformation",
         "LEGO Constructs"
-      ]
+      ],
+      "wave" : 10
     }
   ]
 }
