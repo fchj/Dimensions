@@ -54,6 +54,7 @@ object Dimensions extends App {
 
   type Ability = String
   type World = String
+  type Selection = List[pack]
 
   case class pack(id: Int, name: String, packType: String, world: String, abilities: List[Ability], waveTimesTen: Int = 10)
 
@@ -67,7 +68,13 @@ object Dimensions extends App {
     packs.map(p => p.world).toSet
   }
 
-  type Selection = List[pack]
+  def distinctLevelWorlds(packs: Selection): Set[World] = {
+    distinctWorlds(packs.filter(p => p.packType == "level"))
+  }
+
+  def distinctStoryWorlds(packs: Selection): Set[World] = {
+    distinctWorlds(packs.filter(p => p.packType == "story"))
+  }
 
   def json2pack(json: Map[String,Any]): pack = {
     pack(json.get("id").get.asInstanceOf[Double].toInt,
