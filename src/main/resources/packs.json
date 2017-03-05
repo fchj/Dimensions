@@ -1,6 +1,33 @@
 {
   "packs" : [
     {
+      "id": 71237,
+      "name": "Aquaman",
+      "packType": "fun",
+      "world": "DC Comics",
+      "abilities" : [
+        "Dive",
+        "Hazard Cleaner",
+        "Atlantis Elemental",
+        "Growth",
+        "Water Spray"
+      ],
+      "wave": 40
+    },
+    {
+      "id": 71240,
+      "name": "Bane",
+      "packType": "fun",
+      "world": "DC Comics: Gotham City",
+      "abilities" : [
+        "Big Transform",
+        "Super Strength",
+        "Super Strength Handles",
+        "Hazard Protection"
+      ],
+      "wave": 50
+    },
+    {
       "id": 71203,
       "name": "Portal2 level pack",
       "packType" : "level",
