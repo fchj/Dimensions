@@ -1,6 +1,212 @@
 {
   "packs" : [
     {
+      "id": 71201,
+      "name": "Back to the Future Level Pack",
+      "packType": "level",
+      "world": "Back to the Future",
+      "abilities" : [
+        "Sonar Smash",
+        "Accelerator Switches",
+        "Time Travel",
+        "Tow Bar",
+        "Accelerator Switches",
+        Electricity
+        Special Attack
+        Time Travel
+        Flight
+        Silver LEGO Blowup
+        Flight Dock
+        Cargo Hook
+        Time Travel
+        Flight
+        Silver LEGO Blowup
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71202,
+      "name": "The Simpsons level pack",
+      "packType": "level",
+      "world": "The Simpsons",
+      "abilities" : [
+        Sonar Smash
+        Big Transform
+        Super Strength
+        Accelerator Switches
+        Tow Bar
+        Underwater Swimming
+        Silver LEGO Blowup
+        Sailing
+        Taunting
+        Laser
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71203,
+      "name": "Portal2 level pack",
+      "packType" : "level",
+      "world" : "Portal2",
+      "abilities" : [
+        "portal gun",
+        "acrobat",
+        "silver LEGO blowup",
+        "weight switch"
+      ],
+      "wave" : 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71170,
+      "name": "Starter Pack: PS3",
+      "packType": "starter",
+      "worlds": [
+        "DC Comics",
+        "Lord of the Rings",
+        "The LEGO Movie"
+      ],
+      "abilities" : [
+        "Grapple",
+        "Boomerang",
+        "Stealth",
+        "Relic Detector",
+        "Master Build",
+        "Acrobat",
+        "Magic",
+        "Illumination",
+        "Magical Shield"
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71171,
+      "name": "Starter Pack: PS4",
+      "packType": "starter",
+      "worlds": [
+        "DC Comics",
+        "Lord of the Rings",
+        "The LEGO Movie"
+      ],
+      "abilities" : [
+        "Grapple",
+        "Boomerang",
+        "Stealth",
+        "Relic Detector",
+        "Master Build",
+        "Acrobat",
+        "Magic",
+        "Illumination",
+        "Magical Shield"
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71172,
+      "name": "Starter Pack: Xbox One",
+      "packType": "starter",
+      "worlds": [
+        "DC Comics",
+        "Lord of the Rings",
+        "The LEGO Movie"
+      ],
+      "abilities" : [
+        "Grapple",
+        "Boomerang",
+        "Stealth",
+        "Relic Detector",
+        "Master Build",
+        "Acrobat",
+        "Magic",
+        "Illumination",
+        "Magical Shield"
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71173,
+      "name": "Starter Pack: Xbox 360",
+      "packType": "starter",
+      "worlds": [
+        "DC Comics",
+        "Lord of the Rings",
+        "The LEGO Movie"
+      ],
+      "abilities" : [
+        "Grapple",
+        "Boomerang",
+        "Stealth",
+        "Relic Detector",
+        "Master Build",
+        "Acrobat",
+        "Magic",
+        "Illumination",
+        "Magical Shield"
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71174,
+      "name": "Starter Pack: Wii U",
+      "packType": "starter",
+      "worlds": [
+        "DC Comics",
+        "Lord of the Rings",
+        "The LEGO Movie"
+      ],
+      "abilities" : [
+        "Grapple",
+        "Boomerang",
+        "Stealth",
+        "Relic Detector",
+        "Master Build",
+        "Acrobat",
+        "Magic",
+        "Illumination",
+        "Magical Shield"
+      ],
+      "wave": 10
+    },
+    {
       "id": 71237,
       "name": "Aquaman",
       "packType": "fun",
@@ -18,7 +224,7 @@
       "id": 71240,
       "name": "Bane",
       "packType": "fun",
-      "world": "DC Comics: Gotham City",
+      "world": "DC Comics",
       "abilities" : [
         "Big Transform",
         "Super Strength",
@@ -32,19 +238,6 @@
         "Special Attack"
       ],
       "wave": 50
-    },
-    {
-      "id": 71203,
-      "name": "Portal2 level pack",
-      "packType" : "level",
-      "world" : "Portal2",
-      "abilities" : [
-        "portal gun",
-        "acrobat",
-        "silver LEGO blowup",
-        "weight switch"
-      ],
-      "wave" : 10
     },
     {
       "id": 71248,
