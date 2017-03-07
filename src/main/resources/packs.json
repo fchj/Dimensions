@@ -21,6 +21,8 @@
         Time Travel
         Flight
         Silver LEGO Blowup
+        Hover
+        Special Attack
       ],
       "wave": 10
     },
@@ -55,6 +57,82 @@
         "weight switch"
       ],
       "wave" : 10
+    },
+    {
+      "id": 71204,
+      "name": "Doctor Who level pack",
+      "packType": "level",
+      "world": "Doctor Who",
+      "abilities" : [
+        Doctor Regenerate
+        TARDIS Access
+        Hacking
+        Technology
+        Fix-It
+        Sonar Smash
+        Intelligence
+        Flight
+        Stealth
+        TARDIS Travel
+        Flight Dock
+        Cargo Hook
+        Laser
+        Silver LEGO Blow Up
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71205,
+      "name": "Jurrassic world team pack",
+      "packType": "team",
+      "world": "Jurrasic World",
+      "abilities" : [
+        Tracking
+        Stealth
+        Target
+        Vine Cut
+        Electricity
+        Illumination
+        Super Strength
+        Special Attack
+        Digging
+        Gyrosphere Switches
+        Sonar Smash
+        Speed
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71206,
+      "name": "Scooby-Doo team pack",
+      "packType": "team",
+      "world": "Scooby-Doo",
+      "abilities" : [
+        Dive
+        Tracking
+        Dig
+        Stealth
+        Glide
+        Illumination
+        Accelerator Switches
+        Tow Bar
+        Hazard Cleaner
+        Water Spray
+        Growth
+        Super Strength
+        Laser
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
     },
     {
       "id": 71xxx,
