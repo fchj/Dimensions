@@ -125,6 +125,156 @@
       "wave": 10
     },
     {
+      "id": 71207,
+      "name": "Ninjago team pack",
+      "packType": "team",
+      "world": "Ninjago",
+      "abilities" : [
+        Spinjitzu
+        Acrobat
+        Stealth
+        Laser Deflector
+        Accelerator Switches
+        Shoot bullets
+        Flight
+        Tow Bar
+        Cargo Hook
+        Flight Dock
+        Laser
+        Special Attack
+        Silver LEGO Blowup
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71209,
+      "name": "Wonder woman fun pack",
+      "packType": "fun",
+      "world": "DC Comics",
+      "abilities" : [
+        Flying
+        Boomerang
+        Dive
+        Invulnerability
+        Mind Control
+        Laser Deflector
+        Grapple
+        Flight
+        Flight Dock
+        Stealth
+        Laser
+        Flight
+        Silver LEGO Blowup
+        Cargo Hook
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71210,
+      "name": "Cyborg fun pack",
+      "packType": "fun",
+      "world": "DC Comics",
+      "abilities" : [
+        Laser
+        Dive
+        Big Transform
+        Super Strength
+        Target
+        Technology
+        Mech Walker
+        Digging
+        Silver LEGO Blowup
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71211,
+      "name": "Bart Simpson fun pack",
+      "packType": "fun",
+      "world": "The Simpsons",
+      "abilities" : [
+        Target
+        Mini Access
+        Accelerator Switches
+        Tow Bar
+        Speed
+        Flight
+        Flight Dock
+        Cargo Hook
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71212,
+      "name": "Emmet fun pack",
+      "packType": "fun",
+      "world": "The LEGO Movie",
+      "abilities" : [
+        Drill
+        Fix-It
+        Master Build
+        Digging
+        Accelerator Switches
+        Tow Bar
+        Super Strength
+        Mech Walker
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71213,
+      "name": "Bad cop fun pack",
+      "packType": "fun",
+      "world": "The LEGO Movie",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
+      "id": 71xxx,
+      "name": "",
+      "packType": "",
+      "world": "",
+      "abilities" : [
+
+      ],
+      "wave": 10
+    },
+    {
       "id": 71xxx,
       "name": "",
       "packType": "",
