@@ -1,0 +1,28 @@
+curl -s https://raw.githubusercontent.com/ags131/node-ld/master/data/charactermap.json | python -mjson.tool |grep world |sort -u | awk -F':' '{print $2}'
+
+**********
+ 
+ "A-Team"
+ "Adventure Time"
+ "Back to the Future"
+ "DC Comics"
+ "Doctor Who"
+ "E.T."
+ "Fantastic Beasts"
+ "Ghostbuster 2016"
+ "Ghostbusters"
+ "Gremlins"
+ "Harry Potter"
+ "Jurrasic Park"
+ "Legends of Chima"
+ "Lord of the Rings"
+ "Midway Arcade"
+ "Mission Impossible"
+ "N/A"
+ "Ninjago"
+ "Portal 2"
+ "Scooby-Doo"
+ "Sonic"
+ "The LEGO Movie"
+ "The Simpsons"
+ "Wizard of OZ"
